@@ -1,0 +1,171 @@
+* {
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    /* font-size: 22px; */
+}
+
+
+.navigation{
+    display: flex;
+    position: fixed;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    width: 100%;
+    justify-content: space-between;
+    z-index: 1000; /* Added z-index */
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    font-size: 22px;
+}
+
+
+.navigation img{
+    height: 50px;
+    padding: 9px;
+    
+}
+
+
+
+.navbar li {
+    display: inline-block;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: underline;
+    flex-direction: row;
+    margin: 0 10px;
+    
+    
+}
+
+.navbar a:hover{
+    color: blue;
+}
+
+/* .first img{
+    display: inline-flex;
+    position: relative;
+    height: 700px;
+    width: 1200px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*lle1qo*_ga*ODQ1NTA4NTMyMC4xNzA0NzYxNTE3*_ga_3LRZM6TM9L*MTcwNTk0NjY2Ny4yNy4xLjE3MDU5NDY2OTguMjkuMC4w") ; 
+}
+
+.container1 {
+    align-items: center; 
+    display: inline-flex; 
+    margin: 0 auto;
+    height: 700px;
+    width: 1200px;
+    position: absolute;
+
+}  */
+/* .first{
+    margin: 69px 10px;
+} */
+/* .container1 {
+    position: absolute;
+    padding-top: 69px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*lle1qo*_ga*ODQ1NTA4NTMyMC4xNzA0NzYxNTE3*_ga_3LRZM6TM9L*MTcwNTk0NjY2Ny4yNy4xLjE3MDU5NDY2OTguMjkuMC4w") ; 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 
+} */
+
+/* .first {
+    position: relative; Adjust the position
+    margin-top: 69px; Add top margin
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg"); 
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: calc(100vh - 69px); Adjust height if needed
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.first {
+    position: relative; /* Ensure it's positioned in the normal flow */
+    margin-top: 69px; /* Add top margin to avoid overlapping with the navbar */
+    height: 700px; /* Set the height */
+    width: 1200px; /* Set the width */
+    margin-left: auto; /* Centering the div horizontally */
+    margin-right: auto;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container1 {
+    width: 100%;
+
+}
+
+.second {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    /* width: 1000px; */
+    
+}
+
+.Text{
+    display: flexbox;
+    justify-content: center;
+}
+.container2{
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.container2 ul{
+    /* position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+    /* align-items: center; */
+    /* margin: 0 auto; */
+}
+
+.container2 li{
+    display:  inline-flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin: 0 auto;
+    /* justify-content: space-between; */
+    /* float: left; */
+    
+}
+
+.container2 figcaption {
+    padding: 10px;
+    margin-bottom: 30px;
+
+}
+
+.container2 img {
+    height: 200px;
+    width: 300px;
+
+} 
